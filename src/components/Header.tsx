@@ -12,7 +12,8 @@ const Header: React.FC<HeaderProps> = ({ activeView, onViewChange }) => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 items-center">
           <div className="flex items-center">
-            <Clock className="h-8 w-8 text-primary-600" />
+            {/* <Clock className="h-8 w-8 text-primary-600" /> */}
+            <img src="https://flowace.ai/wp-content/uploads/2023/08/Picture2-1.png" className='w-12' alt="" />
             <h1 className="ml-2 text-2xl font-bold text-gray-900">Office Time Tracker</h1>
           </div>
           
